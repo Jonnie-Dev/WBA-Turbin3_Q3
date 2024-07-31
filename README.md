@@ -21,7 +21,7 @@ In the prerequisite task for the Turbin3 cohort, we used typescript to generate 
 
 Folder:
 
-    /ts/prereqs/WBA_Cohort-3_Enrollment-script__Typescript
+    /ts/prereqs/README.md
 
 ## Rust Registration
 
@@ -29,7 +29,7 @@ In the registration task, we used rust to generate a keypair, airdrop to that wa
 
 Folder:
 
-    /rs/prereqs/WBA_Cohort-3_Enrollment-script__Rust
+    /rs/prereqs/README.md
 
 ## 240730 - Class 1
 
@@ -56,5 +56,8 @@ Here is the final [transaction](https://explorer.solana.com/tx/ok4BNDwLAXVbkenkD
         cd ts
         node spl_init
         node spl_mint
-    
+
+
+## 240731 - Class 2
+// About blinks, solana actions
     

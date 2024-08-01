@@ -60,4 +60,7 @@ Here is the final [transaction](https://explorer.solana.com/tx/ok4BNDwLAXVbkenkD
 
 ## 240731 - Class 2
 // About blinks, solana actions
-    
+
+
+## 240801 - Class 3
+

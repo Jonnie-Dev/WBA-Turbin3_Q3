@@ -12,12 +12,11 @@ This repo showcases work done during the WBA Turbine 2024 Q3 Cohort. I am open f
 
 > X: [@JonnieDev](https://www.x.com/Jonnie-Dev) | Discord: j3ech | Email: [j3ech@gmail.com](mailto:jtech2096@gmail.com)
 
-
 # Turbine3 Work
 
 ## Prerequisite Task
 
-In the prerequisite task for the Turbin3 cohort, we used typescript to generate a keypair, airdrop to that wallet, transfer sol, and enroll to the WBA registration program.
+In the prerequisite task for the Turbin3 cohort, I made use of typescript to write scripts to generate a keypair, request/airdrop some devnet sol tokens to that keypair wallet, transfer sol, and enroll to the WBA registration program using the provided WBA PDA program.
 
 Folder:
 
@@ -25,7 +24,7 @@ Folder:
 
 ## Rust Registration
 
-In the registration task, we used rust to generate a keypair, airdrop to that wallet, swap between wallet keys and b58, transfer sol, and enroll to the WBA registration program.
+For the registration task, I repeated the pre-requisite task, but now using Rust
 
 Folder:
 
@@ -48,19 +47,16 @@ Here is the final [transaction](https://explorer.solana.com/tx/ok4BNDwLAXVbkenkD
 
         npm install --force
         npm install --legacy-peer-deps
-    
 
-3.  Add a wba-wallet address private key locally, and double check <code>.gitignore</code> based on your wallet file naming convention
-4.  After updating any ts files, use <code>node {name in package.json scripts}</code> to run them
+2.  Add a wba-wallet address private key locally, and double check <code>.gitignore</code> based on your wallet file naming convention
+3.  After updating any ts files, use <code>node {name in package.json scripts}</code> to run them
 
         cd ts
         node spl_init
         node spl_mint
 
-
 ## 240731 - Class 2
+
 // About blinks, solana actions
 
-
 ## 240801 - Class 3
-

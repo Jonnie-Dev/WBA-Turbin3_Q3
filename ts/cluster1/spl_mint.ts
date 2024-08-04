@@ -12,7 +12,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 const token_decimals = 1_000_000n;
 
 // Mint address
-const mint = new PublicKey("9banR4c2aPCvmkwVNKVX4sQP3BSxwyD22cWVYjRdkVoM");
+const mint = new PublicKey("3GacodAh6tGfod1FikZHEses31nj9g1USDjBniSiWRWW");
 
 (async () => {
   try {
@@ -27,7 +27,7 @@ const mint = new PublicKey("9banR4c2aPCvmkwVNKVX4sQP3BSxwyD22cWVYjRdkVoM");
     // Every ATA is a PDA derived from the mint
 
     console.log(`Your ata is: ${ata.address.toBase58()}`);
-    // ATA -> A3vESKA39vDVsA5aQz61g7JiT8wnYunsjAzFNBmjLeiN
+    // ATA -> H6GPRxDZRA4UweSUdzrv7h6SE5Gf5wD7gGVoNNgwN9mP
     // Mint to ATA
     const mintTx = await mintTo(
       connection,
@@ -40,6 +40,7 @@ const mint = new PublicKey("9banR4c2aPCvmkwVNKVX4sQP3BSxwyD22cWVYjRdkVoM");
     // console.log(`Your mint txid: ${mintTx}`);
     console.log(
       `Check your transaction here: https://explorer.solana.com/tx/${mintTx}?cluster=devnet`
+      // https://explorer.solana.com/tx/3TYzLH2AEMhN8UEDqCTae7gUET89PMDJMrjBLL3vdJxftMWXvm4Y5xzaKXgMJ1LWsNusTsekmTBh1raJfHpVANRV?cluster=devnet
     );
   } catch (error) {
     console.log(`Oops, something went wrong: ${error}`);

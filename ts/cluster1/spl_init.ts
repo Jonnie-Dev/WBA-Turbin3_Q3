@@ -13,7 +13,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 (async () => {
   try {
     // Start here
-    // minted -> 9banR4c2aPCvmkwVNKVX4sQP3BSxwyD22cWVYjRdkVoM
+    // minted -> 3GacodAh6tGfod1FikZHEses31nj9g1USDjBniSiWRWW
     const payer = keypair; // the account paying for the mint
     const mintAuthority = keypair; // account authorized to mint token
     const freezeAuthority = null; // account authorized to freeze token
@@ -26,7 +26,7 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
       6
     );
 
-    console.log(mint.toBase58());
+    console.log("Mint public address: ", mint.toBase58());
   } catch (error) {
     console.log(`Oops, something went wrong: ${error}`);
   }

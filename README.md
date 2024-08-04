@@ -39,7 +39,9 @@ Files:
     ts/cluster1/spl_init.ts
     ts/cluster1/spl_mint.ts
 
-Here is the final [transaction](https://explorer.solana.com/tx/ok4BNDwLAXVbkenkDgUqcJVRkgZxYshiqqspAXuGQAbcaAPA9RbxrzhQsGHJeoVyn43E9h3rTKDxhepYM1MeJEg?cluster=devnet) of this class' work, which is the mint tx.
+Here is the mint [transaction](https://explorer.solana.com/tx/ok4BNDwLAXVbkenkDgUqcJVRkgZxYshiqqspAXuGQAbcaAPA9RbxrzhQsGHJeoVyn43E9h3rTKDxhepYM1MeJEg?cluster=devnet) of this class' work, which is the mint tx.
+
+And here is the minted token (nBTC) with the updated metadata [address](https://explorer.solana.com/address/3GacodAh6tGfod1FikZHEses31nj9g1USDjBniSiWRWW/metadata?cluster=devnet)
 
 ## Necessary Run Tasks
 

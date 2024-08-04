@@ -54,8 +54,8 @@ And here is the minted token (nBTC) with the updated metadata [address](https://
 3.  After updating any ts files, use <code>node {name in package.json scripts}</code> to run them
 
         cd ts
-        node spl_init
-        node spl_mint
+        yarn spl_init
+        yarn spl_mint
 
 ## 240731 - Class 2
 
